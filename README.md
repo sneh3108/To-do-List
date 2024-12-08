@@ -3,14 +3,17 @@
 
 # To-Do-List
 
-To-Do-List is a simple web application for creating and managing to-do lists. It allows users to create tasks with titles and descriptions, update existing tasks, and delete tasks. To-Do-List provides a user-friendly interface for organizing tasks and staying productive.
+The To-Do-List is a straightforward web application designed to help users manage their tasks effectively. It enables users to add tasks with titles and descriptions, edit existing tasks, and remove tasks as needed. With its intuitive interface, the To-Do-List makes it easy to stay organized and boost productivity.
 
 ## Features
 
-- *Task Management*: User can create, update, and delete their tasks & also can view their tasks in a user-friendly interface.
-- *User Authentication*: Users can sign up and log in to access their personalized to-do lists.
-- *Responsive Design*: Compatible with various screen sizes for a seamless user experience.
-- *Intuitive Interface*: User-friendly dark minimal interface for easy task management.
+
+- *Task Management*: Allows users to create new tasks, modify existing ones, and delete completed or unwanted tasks, all within a clean interface.
+- *User Authentication*: Ensures personalized access by enabling users to register and log in to manage their task lists securely.
+- *Responsive Design*: Adapts effortlessly to different devices, providing a consistent experience across desktops, tablets, and smartphones.
+-*Streamlined Interface*: Offers a modern, minimalistic dark theme that simplifies task handling and enhances usability.
+
+
 
 ## Screenshots
 
