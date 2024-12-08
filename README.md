@@ -11,15 +11,23 @@ The To-Do-List is a straightforward web application designed to help users manag
 - *Task Management*: Allows users to create new tasks, modify existing ones, and delete completed or unwanted tasks, all within a clean interface.
 - *User Authentication*: Ensures personalized access by enabling users to register and log in to manage their task lists securely.
 - *Responsive Design*: Adapts effortlessly to different devices, providing a consistent experience across desktops, tablets, and smartphones.
--*Streamlined Interface*: Offers a modern, minimalistic dark theme that simplifies task handling and enhances usability.
+- *Streamlined Interface*: Offers a modern, minimalistic dark theme that simplifies task handling and enhances usability.
 
 
 
-## Screenshots
+## Have a Look
 
-![Home Page](https://i.ibb.co/MNRbLP1/to-do-img1.png)
 
-![Task List Page](https://i.ibb.co/pRkZWhP/to-do-img2.png)
+![Screenshot 2024-12-08 232843](https://github.com/user-attachments/assets/fd336588-9474-411d-98ad-63c21cc22f24)
+
+![Screenshot 2024-12-08 232856](https://github.com/user-attachments/assets/dddd2784-5ea3-4e43-85d8-c2171f4e745e)
+
+
+![Screenshot 2024-12-08 233643](https://github.com/user-attachments/assets/f86b6a37-376a-4ba3-8793-5177f00f77c9)
+
+
+![Screenshot 2024-12-08 233658](https://github.com/user-attachments/assets/dffd25a8-9b5d-45ef-83d8-8dae07961bb0)
+
 
 ## Backend API Documentation
 
@@ -95,7 +103,7 @@ The To-Do-List is a straightforward web application designed to help users manag
 ## Technologies Used
 
 - *Frontend*:
-  - Next.js: For user interfaces.
+  - React.js: For user interfaces.
   - React Router: For Routing in applications.
   - Bootstrap: For responsive design.
   - Next Icons: Icon library.
@@ -114,19 +122,11 @@ To run To-Do-List locally, follow these steps:
 
 1. Clone the repository:
     bash
-    # git clone https://github.com/sani9525/To-Do-List.git
+    # git clone https://github.com/sneh3108/To-do-List.git
 
-2. Navigate to the project directory:
-    bash
-    #cd ListFlow
 
-3. Install dependencies for the frontend and backend:
-    bash
-    cd client
-    npm install
 
-    cd server
-    npm install
+
 
 4. Start the frontend server:
     ```cd frontend
