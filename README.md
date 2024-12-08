@@ -18,26 +18,8 @@ A full-stack To-Do application built with **MongoDB**, **React.js**, and **Node.
   - Optimized for all devices, from desktops to mobile phones, ensuring seamless usability.  
 
 - **Modern UI**:  
-  - Minimalistic dark-themed interface for a clean and intuitive user experience.  
-
-## 🛠️ Tech Stack  
-
-- **Frontend**: React.js  
-- **Backend**: Node.js, Express.js  
-- **Database**: MongoDB  
-- **Styling**: CSS  
-
-## ⚙️ Installation  
-
-Follow these steps to run the project locally:  
-
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/sneh3108/To-do-List.git
-   
-
-
-
+  - Minimalistic dark-themed interface for a clean and intuitive user experience.
+     
 ## Have a Look
 
 
@@ -52,10 +34,37 @@ Follow these steps to run the project locally:
 ![Screenshot 2024-12-08 233658](https://github.com/user-attachments/assets/dffd25a8-9b5d-45ef-83d8-8dae07961bb0)
 
 
+## 🛠️ Tech Stack  
 
+- **Frontend**: React.js  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **Styling**: CSS,Bootstrap
 
+## Let's Go
 
+To run ListFlow locally, follow these steps:
 
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/sneh3108/To-do-List.git
 
+2. Start the frontend server:
+    ```bash
+    cd frontend
+    npm start
 
-                                                                 
+3. Start the backend server:
+    ```bash
+    cd backend
+    nodemon app.js
+   
+## Install dependencies for both the backend and frontend:
+
+## Contact
+
+Feel free to reach out to snehr63@gmail.com with any questions or feedback!!
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE). Feel free to contribute.
