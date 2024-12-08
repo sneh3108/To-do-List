@@ -1,7 +1,21 @@
                                                                   /******* TO-DO-LIST ***********/
                                                                  /***** SNEH RANJAN*************/
 
+cd frontend
+npm install
 
+
+cd backend
+npm install
+
+
+Run the App
+Go to backend and frontend directory and start the server
+
+cd backend
+nodemon server
+cd frontend
+npm start
 
 
 ![Screenshot 2024-12-08 232843](https://github.com/user-attachments/assets/fd336588-9474-411d-98ad-63c21cc22f24)
