@@ -130,33 +130,19 @@ To run To-Do-List locally, follow these steps:
 
 4. Start the frontend server:
     ```cd frontend
+    ```
+    ```
        npm start
     ```
 
 5. Start the backend server:
     ```nodemon app.js
+    ```
    
 
-6. Open your browser and navigate to http://localhost:3000 to access To-Do-List.
-
-## Contact
-
-Feel free to reach out to sanikumar3600@gmail.com with any questions or feedback!!
-
-## License
-
-This project is open-source and available. Feel free to contribute.
 
 
-![Screenshot 2024-12-08 232843](https://github.com/user-attachments/assets/fd336588-9474-411d-98ad-63c21cc22f24)
-
-![Screenshot 2024-12-08 232856](https://github.com/user-attachments/assets/dddd2784-5ea3-4e43-85d8-c2171f4e745e)
 
 
-![Screenshot 2024-12-08 233643](https://github.com/user-attachments/assets/f86b6a37-376a-4ba3-8793-5177f00f77c9)
 
-
-![Screenshot 2024-12-08 233658](https://github.com/user-attachments/assets/dffd25a8-9b5d-45ef-83d8-8dae07961bb0)
-
-![Screenshot 2024-12-08 233856](https://github.com/user-attachments/assets/62cce5f8-76d7-4937-9c98-a3332edbc7d0)
                                                                  
