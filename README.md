@@ -1,6 +1,6 @@
                                                                   /******* TO-DO-LIST ***********/
                                                                  /***** SNEH RANJAN*************/
-# 📝 To-Do Application  
+# 📝 To-Do List Application  
 
 A full-stack To-Do application built with **MongoDB**, **React.js**, and **Node.js**. This app empowers users to create, update, and manage their tasks effortlessly while ensuring a smooth and responsive experience.  
 
@@ -36,10 +36,19 @@ A full-stack To-Do application built with **MongoDB**, **React.js**, and **Node.
 
 ## 🛠️ Tech Stack  
 
-- **Frontend**: React.js  
-- **Backend**: Node.js, Express.js  
-- **Database**: MongoDB  
-- **Styling**: CSS,Bootstrap
+- **Frontend**:
+  - React.js: For user interfaces.
+  - React Router: For Routing in applications.
+  - Bootstrap: For responsive design.
+  - React Icons: Icon library.
+  - Axios: For making requests to the backend.
+
+- **Backend**:
+  - Node.js: For server-side logic.
+  - Express.js: For building APIs and handling HTTP requests.
+  - MongoDB: For storing user data and task information.
+  - Mongoose: MongoDB object modeling for Node.js applications.
+  - bcrypt.js: Library for hashing passwords securely.
 
 ## Let's Go
 
@@ -59,7 +68,7 @@ To run ListFlow locally, follow these steps:
     cd backend
     nodemon app.js
    
-## Install dependencies for both the backend and frontend:
+
 
 ## Contact
 
