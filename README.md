@@ -1,17 +1,40 @@
                                                                   /******* TO-DO-LIST ***********/
                                                                  /***** SNEH RANJAN*************/
+# 📝 To-Do Application  
 
-# To-Do-List
+A full-stack To-Do application built with **MongoDB**, **React.js**, and **Node.js**. This app empowers users to create, update, and manage their tasks effortlessly while ensuring a smooth and responsive experience.  
 
-The To-Do-List is a straightforward web application designed to help users manage their tasks effectively. It enables users to add tasks with titles and descriptions, edit existing tasks, and remove tasks as needed. With its intuitive interface, the To-Do-List makes it easy to stay organized and boost productivity.
+## 🚀 Features  
 
-## Features
+- **Task Management**:  
+  - Create tasks with titles and descriptions.  
+  - Edit tasks to keep details up to date.  
+  - Delete tasks once completed or unnecessary.  
 
+- **User Authentication**:  
+  - Secure sign-up and login functionality for personalized task management.  
 
-- *Task Management*: Allows users to create new tasks, modify existing ones, and delete completed or unwanted tasks, all within a clean interface.
-- *User Authentication*: Ensures personalized access by enabling users to register and log in to manage their task lists securely.
-- *Responsive Design*: Adapts effortlessly to different devices, providing a consistent experience across desktops, tablets, and smartphones.
-- *Streamlined Interface*: Offers a modern, minimalistic dark theme that simplifies task handling and enhances usability.
+- **Responsive Design**:  
+  - Optimized for all devices, from desktops to mobile phones, ensuring seamless usability.  
+
+- **Modern UI**:  
+  - Minimalistic dark-themed interface for a clean and intuitive user experience.  
+
+## 🛠️ Tech Stack  
+
+- **Frontend**: React.js  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **Styling**: CSS  
+
+## ⚙️ Installation  
+
+Follow these steps to run the project locally:  
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/sneh3108/To-do-List.git
+   
 
 
 
@@ -29,116 +52,6 @@ The To-Do-List is a straightforward web application designed to help users manag
 ![Screenshot 2024-12-08 233658](https://github.com/user-attachments/assets/dffd25a8-9b5d-45ef-83d8-8dae07961bb0)
 
 
-## Backend API Documentation
-
-### Sign-Up API
-
-- *Endpoint*: /api/v1/register
-- *Method*: POST
-- *Description*: Creates a new user account with the provided name, email, and password.
-- *Parameters*:
--   - name (string): User's chosen name.
-  - email (string): User's email address.
-  - password (string): User's chosen password.
-- *Response*:
-  - message (string): Success message or error message if user already exists.
-
-### Sign-In API
-
-- *Endpoint*: /api/v1/login
-- *Method*: POST
-- *Description*: Allows existing users to log in with their email and password.
-- *Parameters*:
-  - email (string): User's email address.
-  - password (string): User's password.
-- *Response*:
-  - others (object): User details excluding the password.
-  - message (string): Error message if login fails.
-
-### Create Task API
-
-- *Endpoint*: /api/v2/addTask
-- *Method*: POST
-- *Description*: Adds a new task to the user's to-do list.
-- *Parameters*:
-  - title (string): Title of the task.
-  - body (string): Description of the task.
-  - email (string): User's email address.
-- *Response*:
-  - list (object): Details of the added task.
-
-### Update Task API
-
-- *Endpoint*: /api/v2/updateTask/:id
-- *Method*: PUT
-- *Description*: Updates an existing task in the user's to-do list.
-- *Parameters*:
-    - title (string): New title for the task.
-    - body (string): New description for the task.
-    - email (string): User's email address.
-- *Response*:
-    - message (string): Success message indicating the task was updated.
-
-### Delete Task API
-
-- *Endpoint*: /api/v2/deleteTask/:id
-- *Method*: DELETE
-- *Description*: Deletes a task from the user's to-do list.
-- *Parameters*:
-    - id (string): ID of the task to be deleted.
-    - email (string): User's email address.
-- *Response*:
-    - message (string): Success message indicating the task was deleted.
-
-### Get Tasks API
-
-- *Endpoint*: /api/v2/getTask/:id
-- *Method*: GET
-- *Description*: Retrieves all tasks belonging to a user.
-- *Parameters*:
-    - id (string): ID of the user whose tasks are to be retrieved.
-- *Response*:
-    - list (array): Array of task objects belonging to the user.
-
-## Technologies Used
-
-- *Frontend*:
-  - React.js: For user interfaces.
-  - React Router: For Routing in applications.
-  - Bootstrap: For responsive design.
-  - Next Icons: Icon library.
-  - Axios: For making requests to the backend.
-
-- *Backend*:
-  - Node.js: For server-side logic.
-  - Express.js: For building APIs and handling HTTP requests.
-  - MongoDB: For storing user data and task information.
-  - Mongoose: MongoDB object modeling for Node.js applications.
-  - bcrypt.js: Library for hashing passwords securely.
-
-## Getting Started
-
-To run To-Do-List locally, follow these steps:
-
-1. Clone the repository:
-    bash
-    # git clone https://github.com/sneh3108/To-do-List.git
-
-
-
-
-
-4. Start the frontend server:
-    ```cd frontend
-    ```
-    ```
-       npm start
-    ```
-
-5. Start the backend server:
-    ```nodemon app.js
-    ```
-   
 
 
 
