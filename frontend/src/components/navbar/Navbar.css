@@ -1,0 +1,94 @@
+/* .user-png {
+  width: 30px;
+  height: 30px;
+}
+.navbar-brand {
+  color: rgba(199, 14, 174, 0.87);
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.btn-nav {
+  background-color: rgba(199, 22, 215, 0.87);
+  border-radius: 5px;
+  color: white !important;
+  font-weight: bold;
+} */
+
+
+/* Navbar Container */
+.navbar {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 10px 20px; /* Adjust spacing around the navbar */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  color: rgba(199, 14, 174, 0.87); /* Stylish pink shade for brand */
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none; /* Removes underline */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.navbar-brand:hover {
+  color: rgba(159, 12, 175, 0.87); /* Slightly darker on hover */
+}
+
+/* Navbar Links */
+.nav-link {
+  color: #555; /* Neutral link color */
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.nav-link:hover {
+  color: rgba(199, 22, 215, 0.87); /* Color change on hover */
+  text-decoration: none; /* No underline on hover */
+}
+
+/* Buttons (Login and Signup) */
+.btn-nav {
+  background-color: rgba(199, 22, 215, 0.87); /* Vibrant button background */
+  border-radius: 20px; /* Makes the button curvy */
+  color: white !important; /* Ensures white text */
+  font-weight: bold;
+  padding: 10px 20px; /* Button size */
+  border: none; /* Removes border */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Adds smooth effects */
+  cursor: pointer; /* Pointer cursor for buttons */
+}
+
+.btn-nav:hover {
+  background-color: rgba(159, 12, 175, 0.87); /* Slightly darker on hover */
+  transform: scale(1.05); /* Slightly enlarges the button on hover */
+}
+
+/* Toggler Button (for mobile view) */
+.navbar-toggler {
+  border: none; /* Removes border around toggler */
+  outline: none; /* Removes default outline */
+}
+
+.navbar-toggler-icon {
+  background-color: rgba(199, 22, 215, 0.87); /* Matches the theme color */
+  border-radius: 5px; /* Adds slight rounding */
+  width: 30px; /* Icon size */
+  height: 3px;
+  display: block;
+  margin: 5px auto;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center; /* Centers nav links */
+  }
+
+  .btn-nav {
+    margin-bottom: 10px; /* Adds spacing between buttons */
+  }
+}
+
