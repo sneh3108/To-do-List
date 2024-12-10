@@ -106,7 +106,7 @@ const Todo = () => {
           </div>
           <div className=" w-50 w-100 d-flex justify-content-end my-3">
             <button className="home-btn px-2 py-1" onClick={submit}>
-              Go
+              Add Your Task
             </button>
           </div>
         </div>
