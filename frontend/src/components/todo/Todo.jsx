@@ -146,10 +146,6 @@
 // export default Todo;
 
 
-
-
-
-
 import React, { useEffect, useState } from "react";
 import "./todo.css";
 import TodoCards from "./TodoCards";
@@ -164,6 +160,16 @@ const Todo = () => {
   const [id, setId] = useState(sessionStorage.getItem("id") || null);
   const [toUpdateArray, setToUpdateArray] = useState(null);
   const [showTextarea, setShowTextarea] = useState(false);
+
+  // Sync sessionStorage with React state
+  useEffect(() => {
+    const handleStorageChange = () => {
+      setId(sessionStorage.getItem("id")); // Update state whenever sessionStorage changes
+    };
+
+    window.addEventListener("storage", handleStorageChange);
+    return () => window.removeEventListener("storage", handleStorageChange);
+  }, []);
 
   const show = () => setShowTextarea(true);
 
@@ -228,7 +234,7 @@ const Todo = () => {
       };
       fetch();
     }
-  }, [id]);
+  }, [id]); // Fetch tasks whenever `id` changes
 
   return (
     <>
@@ -296,4 +302,9 @@ const Todo = () => {
 };
 
 export default Todo;
+
+
+
+
+
 
