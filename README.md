@@ -1,5 +1,5 @@
-                              /******* TO-DO-LIST ***********/
-                             /***** SNEH RANJAN*************/
+                                        /******* TO-DO-LIST ***********/
+                                       /***** SNEH RANJAN*************/
 # 📝 To-Do List Application  
 
 A full-stack To-Do application built with **MongoDB**, **React.js**, and **Node.js**. This app empowers users to create, update, and manage their tasks effortlessly while ensuring a smooth and responsive experience.  
